@@ -21,31 +21,40 @@ export default function HomeScreen() {
         </View>
 
         <View style={styles.getStartedContainer}>
-          <DevelopmentModeNotice />
+          {/* <DevelopmentModeNotice />
 
           <Text style={styles.getStartedText}>Open up the code for this screen:</Text>
 
           <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
             <MonoText>screens/HomeScreen.js</MonoText>
-          </View>
+          </View> */}
 
           <Text style={styles.getStartedText}>
-            Change any of the text, save the file, and your app will automatically reload.
+            One Stop Application for your everyday needs in Thapar Campus
           </Text>
         </View>
 
         <View style={styles.helpContainer}>
           <TouchableOpacity onPress={handleHelpPress} style={styles.helpLink}>
-            <Text style={styles.helpLinkText}>Help, it didn’t automatically reload!</Text>
+            <Text style={styles.helpLinkText}>Madad Karo Reload nahi ho raha !</Text>
           </TouchableOpacity>
         </View>
+
+        <View style={styles.getStartedContainer}>
+          <Text style={styles.getStartedText}>
+            Prateeksha karo vats jo bhi tumne socha hai sab banega
+            kyki niti ka niyam hai ki hoga 🚀
+          </Text>
+        </View>
+
+
       </ScrollView>
 
       <View style={styles.tabBarInfoContainer}>
-        <Text style={styles.tabBarInfoText}>This is a tab bar. You can edit it in:</Text>
+        <Text style={styles.tabBarInfoText}>O! Developer acha PR mar na</Text>
 
         <View style={[styles.codeHighlightContainer, styles.navigationFilename]}>
-          <MonoText style={styles.codeHighlightText}>navigation/BottomTabNavigator.js</MonoText>
+          <MonoText style={styles.codeHighlightText}>Currently Under Development</MonoText>
         </View>
       </View>
     </View>
